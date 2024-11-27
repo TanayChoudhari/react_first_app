@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import BButton from './Components/BButton';
+import BaComponent from './Components/BusinessAssociates/BaComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BButton />
+    <BaComponent />
   </React.StrictMode>
 );
 
