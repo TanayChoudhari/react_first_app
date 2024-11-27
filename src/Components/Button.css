@@ -1,4 +1,30 @@
-.Button
-{
-    margin: 2.5rem;
+/* General button styles */
+/* General button styles */
+.btn {
+    padding: 10px 20px; /* Adjust padding for balanced size */
+    margin-left: 10px; /* Space between buttons */
+}
+
+.btnOpenAnAccount{
+    background-color: transparent;
+    color: #81003c;
+    border: 1px solid #81003c;
+}
+
+/* Wrapper styles for top-right positioning */
+.top-right-wrapper {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    display: flex;
+    flex-direction: row; /* Arrange buttons side by side */
+    align-items: center; /* Vertically align buttons if needed */
+    gap: 10px; /* Space between buttons */
+}
+
+
+
+
+body{
+    margin: 2rem;
 }
