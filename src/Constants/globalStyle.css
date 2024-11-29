@@ -1,0 +1,11 @@
+.maroonBtn
+{
+    background-color: #97144D;
+    border: 1px solid #97144D;
+}
+
+.maroonBtn:hover{
+    background-color: white;
+    border: 1px solid #97144D;
+    color: #97144D;
+}
