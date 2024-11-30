@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -18,7 +19,11 @@ const BaComponent = () => {
 				<section className='content-section graybg associate-section'>
 					<Container className="mt-5">
 						<Row>
+
+						<NavLink to="/"><Button variant="danger">Home</Button></NavLink>
+
 							<Col className="text-center">
+
 								<span className='small-text'>Become A Business Associate with Axis Direct</span>
 
 								<div className="content-details">

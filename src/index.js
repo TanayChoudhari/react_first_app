@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Main from './Main';
 import reportWebVitals from './reportWebVitals';
-import BButton from './Components/BButton';
-import BaComponent from './Components/BusinessAssociates/BaComponent';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BaComponent />
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
